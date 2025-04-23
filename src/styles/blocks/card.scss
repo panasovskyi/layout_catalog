@@ -1,7 +1,5 @@
 @import '../../utils/variables';
 
-
-
 .card {
   width: 200px;
   border: 1px solid #f3f3ff;
@@ -89,9 +87,9 @@
 
 @keyframes scale {
   to {
-      transform: scale(1.2);
-    }
+    transform: scale(1.2);
   }
+}
 
 .card:hover {
   transition: transform, 0.3s;
